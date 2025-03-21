@@ -1,0 +1,39 @@
+Starting Dynare (version 6.1).
+Calling Dynare with arguments: none
+Starting preprocessing of the model file ...
+Substitution of forward vars: added 8 auxiliary variables and equations.
+Found 60 equation(s).
+Evaluating expressions...
+Computing static model derivatives (order 1).
+Normalizing the static model...
+Normalization failed with cutoff, trying symbolic normalization...
+Finding the optimal block decomposition of the static model...
+5 block(s) found:
+  4 recursive block(s) and 1 simultaneous block(s).
+  the largest simultaneous block has 45 equation(s)
+                                 and 45 feedback variable(s).
+Computing dynamic model derivatives (order 1).
+Normalizing the dynamic model...
+Normalization failed with cutoff, trying symbolic normalization...
+Finding the optimal block decomposition of the dynamic model...
+5 block(s) found:
+  3 recursive block(s) and 2 simultaneous block(s).
+  the largest simultaneous block has 52 equation(s)
+                                 and 45 feedback variable(s).
+Preprocessing completed.
+Preprocessing time: 0h00m00s.
+-----------------------------------------
+MODEL SIMULATION (method=BiCGStab on stacked system):
+
+iteration: 1 error: 7.666450e-02
+iteration: 2 error: 3.362828e-02
+iteration: 3 error: 4.915292e-04
+iteration: 4 error: 4.390479e-04
+iteration: 5 error: 8.626048e-05
+iteration: 6 error: 4.796062e-07
+iteration: 1 error: 1.610033e-02
+iteration: 2 error: 2.842171e-14
+
+Perfect foresight solution found.
+
+Total computing time : 0h00m02s
